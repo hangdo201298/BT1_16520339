@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BT1_16520339.ManHinhTinhTong">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Welcome to Xamarin.Forms!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Nhập Số A"/>
+            <Entry x:Name="txtSoa" Placeholder="Nhập số A"/>
+            <Label Text="Nhập Số B"/>
+            <Entry x:Name="txtSob" Placeholder="Nhập số B"/>
+            <Label Text="Tổng"/>
+            <Entry x:Name="txtTong" Placeholder="Tổng" IsEnabled="False"/>
+            
+            <Button x:Name="cmdTinhTong" Text="Tính Tổng" Clicked="CmdTinhTong_Clicked" VerticalOptions="Center"/>
+            <Button x:Name="cmdVeTrangChu" Text="Về Trang Chủ" Clicked="CmdVeTrangChu_Clicked" VerticalOptions="End" HorizontalOptions="End"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

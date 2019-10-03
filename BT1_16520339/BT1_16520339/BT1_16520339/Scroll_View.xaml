@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BT1_16520339.Scroll_View">
+    <ContentPage.Content>
+        <Grid>
+            <ScrollView x:Name="ScrollView">
+                <StackLayout>
+                    <BoxView BackgroundColor="Red" HeightRequest="120"/>
+                    <BoxView BackgroundColor="Orange" HeightRequest="120"/>
+                    <BoxView BackgroundColor="Yellow" HeightRequest="120"/>
+                    <BoxView BackgroundColor="Green" HeightRequest="120"/>
+                    <BoxView BackgroundColor="Blue" HeightRequest="120"/>
+                    <BoxView BackgroundColor="Purple" HeightRequest="120"/>
+                    <BoxView BackgroundColor="Black" HeightRequest="120"/>
+                    <BoxView BackgroundColor="Cyan" HeightRequest="120"/>
+                    <BoxView BackgroundColor="Pink" HeightRequest="120"/>
+                    <BoxView BackgroundColor="GreenYellow" HeightRequest="120"/>
+                </StackLayout>
+            </ScrollView>
+            <Label x:Name="ScrollDownIndicator"
+               Text="Scroll down for more!"
+               BackgroundColor="Black"
+               TextColor="White"
+               FontSize="Large"
+               HorizontalTextAlignment="Center"
+               VerticalOptions="End"/>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
