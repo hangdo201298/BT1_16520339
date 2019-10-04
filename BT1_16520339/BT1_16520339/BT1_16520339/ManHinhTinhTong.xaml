@@ -4,9 +4,6 @@
              x:Class="BT1_16520339.ManHinhTinhTong">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
             <Label Text="Nhập Số A"/>
             <Entry x:Name="txtSoa" Placeholder="Nhập số A"/>
             <Label Text="Nhập Số B"/>
